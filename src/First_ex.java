@@ -3,7 +3,7 @@
 //repeatStr(6, "I") // "IIIIII"
 //repeatStr(5, "Hello") // "HelloHelloHelloHelloHello"
 
-public class Solution {
+class Solution {
     public static String repeatStr(final int repeat, final String string) {
         return string.repeat(repeat);
     }
